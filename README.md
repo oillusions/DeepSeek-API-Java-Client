@@ -94,3 +94,6 @@ public static void main(String[] args) {
     context.request();
 }
 ```
+
+---
+> [打包好的jar](https://github.com/oillusions/DeepSeek-API-Java-Client/releases/tag/AAA)
