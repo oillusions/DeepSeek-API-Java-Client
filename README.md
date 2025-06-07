@@ -1,6 +1,6 @@
 ## 核心功能
 
-### 灵活的API配置
+### API配置
 ```java
 // 使用Builder模式配置API参数
 DeepSeekConfig config = new DeepSeekConfig.Builder()
