@@ -1,6 +1,7 @@
 ## 核心功能
 
 ### API配置
+
 ```java
 // 使用Builder模式配置API参数
 DeepSeekConfig config = new DeepSeekConfig.Builder()
@@ -13,6 +14,7 @@ DeepSeekConfig config = new DeepSeekConfig.Builder()
 ```
 
 ### 对话上下文管理
+
 ```java
 // 创建对话上下文
 DeepSeekContext context = new DeepSeekContext(config);
@@ -29,6 +31,7 @@ context.resetConversation();
 ```
 
 ### 响应处理与事件监听
+
 ```java
 // 添加响应监听器
 context.addListener(response -> {
@@ -52,6 +55,7 @@ while ((line = reader.readLine()) != null) {
 ```
 
 ### 接口定义
+
 ```java
 public interface DeepSeekResponse {
     String getContent();
@@ -62,6 +66,7 @@ public interface DeepSeekResponse {
 ```
 
 ### 枚举类型
+
 ```java
 public enum Model { CHAT, REASONER }
 public enum Role { SYSTEM, USER, ASSISTANT }
@@ -96,4 +101,9 @@ public static void main(String[] args) {
 ```
 
 ---
+
 > [打包好的jar](https://github.com/oillusions/DeepSeek-API-Java-Client/releases/tag/AAA)
+
+---
+
+DeepSeek好耶[这篇README.md也是DeepSeek-R1生成的哦]
